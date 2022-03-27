@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main{
+    background-color: hsl(0, 0%, 95%);
+    padding:100px 0; 
+}
+.card{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    margin-top: 90px;
+    overflow: hidden;
+}
+   
+.card_coche1{
+    background-color: hsl(31, 77%, 52%);
+    
+}
+.card_coche2{
+    background-color: hsl(184, 100%, 22%);
+}
+.card_coche3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card_img1,
+.card_img2,
+.card_img3{
+    
+    padding:50px 50px 40px 30px;
+}
+
+
+.titulo_coche1,
+.titulo_coche2,
+.titulo_coche3{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0 30px 30px;
+
+}
+.p_coche1{
+    color:hsl(0, 0%, 95%); 
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    padding: 0 40px 100px 30px;
+    line-height: 25px;
+
+}
+.card_boton{
+    text-align: left;
+    margin-bottom: 70px;
+    padding-left: 30px;
+}
+.estilo_boton_coche1{
+
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+
+}
+.estilo_boton_coche2{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+
+}
+.estilo_boton_coche3{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+
+}
